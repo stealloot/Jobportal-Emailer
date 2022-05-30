@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Free Web tutorials">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Survey</title>
+  <style>
+  *{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body{
+background-color:#8c8c8c;
+}
+table{
+cellpadding:0;
+cellspacing:0;
+width:700px;
+margin:auto;
+background-color:#fffae6;
+}
+table #first{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:1.5rem;
+width:100%;
+}
+#first .first{
+width:50%;
+}
+#first img{
+width:90%;
+}
+#first a{
+color:red;	
+font-weight:bold;
+font-size:1.2rem;
+
+}
+#first p{
+text-align:right;
+font-weight:bold;
+padding-top:5px;
+font-size:1.2rem;
+
+}
+#second td{
+padding:0rem 10px;
+}
+#second img{
+width:100%;
+}
+#second h1{
+text-align:center;
+padding:1rem 0rem;
+color:red;
+font-family: 'Roboto Slab', serif;
+}
+#second h2{
+text-align:center;
+ font-size:1rem;
+ font-weight:bold;
+}
+#second h3{
+text-align:center;
+ margin:2rem 0rem;
+}
+#second a{
+text-decoration:none;
+border:1px solid grey;
+padding:6px 50px;
+background-color:red;
+color:white;
+border:none;
+font-size:10px;
+}
+#second h4{
+padding:1rem;
+font-family: 'Roboto Slab', serif;
+color:blue;
+}
+#second p{
+padding:0rem 1rem;
+
+text-align:left;
+line-height:1.4;
+color:#8c8c8c;
+}
+table #third{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:2rem;
+width:100%;
+}
+#third td{
+width:50%;
+}
+#third img{
+width:95%;
+}
+#four p{
+padding:0rem 2rem;
+line-height:1.4;
+color:#8c8c8c;
+}
+#four p span{
+color:red;
+font-weight:bold;
+}
+#four h4{
+padding:2rem 2rem 1rem;
+font-weight:bold;
+color:blue;
+font-family: 'Roboto Slab', serif;
+}
+#four h5{
+padding:0rem 2rem 2rem;
+font-size:1.3rem;
+font-family: 'Parisienne', cursive;
+}
+table #five{
+background-color:#00334d;
+}
+#five h1{
+text-align:center;
+color:white;
+font-family: 'Roboto Slab', serif;
+padding:2rem 2rem 1rem;	
+}
+#five p{
+text-align:center;
+color:white;
+padding:0rem 2rem 1rem;	
+line-height:1.4;
+}
+#five h4{
+text-align:center;
+padding:2rem;
+}
+#five a{
+border:1px solid grey;
+color:white;
+text-decoration:none;
+font-size:10px;
+background-color:red;
+padding:8px 60px;
+border:none;
+}
+#six img{
+width:180px;
+margin:2rem auto;
+display:block;
+}
+table #seven{
+display:flex;
+align-items:center;
+justify-content:center;
+}
+#seven img{
+width:30px;
+margin:0px 5px;
+}
+#eight p{
+text-align:center;
+padding:2rem;
+color:#808080;
+font-size:12px;
+line-height:1.4;
+}
+#eight span{
+text-decoration:underline;
+}
+#footer p{
+padding:1rem 2rem;
+text-align:center;
+font-size:14px;
+color:#808080;
+}
+
+
+
+@media (max-width:600px){
+	table{
+	width:100vw;
+	}
+    table #first{
+    flex-direction:column;
+    }
+    #first .first{
+    width:100%;
+    }
+    #first img{
+    width:90%;
+	margin:0px auto 1rem;
+	display:block;
+    }
+	#first a{	
+    font-weight:bold;
+    font-size:1.4rem;
+    text-align:center;
+    }
+    #first p{
+    text-align:center;
+    font-size:1.3rem;
+   }
+   table #third{
+    flex-direction:column;
+   }
+   #third td{
+   width:100%;
+   } 
+   #third img{
+   width:95%;
+   margin-bottom:10px;
+   }
+}
+  
+  </style>
+ </head>
+ <body>
+  <table>
+    <tr id="first">
+	  <td class="first"><img src="image/logo.png"> </td>
+	  <td><a href="#">www.yourcompany.com</a>
+          <p>123-456-7890</p>
+	  </td>
+	</tr>
+	<tr id="second">
+	 <td><img src="image/pic1.png">
+	     <h1>THANK YOU!</h1>
+          <h2>YOUR SERVICE VISIT BY PLUM LANDSCAPING IS COMPLETE</h2>
+           <h3><a href="#">CLICK HERE</a></h3>  <hr style="width: 100%; display:block; margin:auto";>
+		   <h4>Dear Angita,</h4>
+		   <p>I am very interested in working at XYZ Company, and I believe my skills and experience would be an ideal match for this position. In particular, my five years as an award-winning programmer at ABC Company make me a strong fit for this position and company. </p>
+		   
+	 </td> 
+	</tr>
+	<tr id="third">
+	  <td><img src="image/pic2.JFIF"> </td>
+	  <td><img src="image/pic3.JFIF"></td>
+	</tr>
+	<tr id="four">
+	  <td>
+       <p>Please let me know if you need any further materials from me. I can be reached at<span> 123-456-7890</span> or<span> jane.doe@email.com.</span> I look forward to hearing from you.<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed .</p>
+	     <h4>Signature (hard copy letter)</h4>
+         <h5>ladnam Arpib</h5>
+	  </td>
+	</tr>
+	<tr id="five">
+	  <td> 
+	    <h1>We look forward to<br/> hearing from you</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <h4><a href="#">CLICK HERE</a></h4>	 
+	 </td>
+	</tr>
+	<tr id="six">
+	  <td><img src="image/logo.png"></td>
+	</tr>
+	<tr id="seven">
+	  <td><img src="image/facebook.png"></td>
+	  <td><img src="image/twitter.png"></td>
+	  <td><img src="image/youtube.png"></td>
+	  <td><img src="image/linkedin.png"></td>
+	  <td><img src="image/instagram.png"></td>
+	</tr>
+	<tr id="eight">
+	  <td> 
+	    <p>If you have questions regarding your Data, please visit our Privacy Policy<br/>
+            Want to change how you receive these emails?<br/>
+            You can update your preferences or <span>unsubscribe</span> from this list.</p> <hr style="width: 70%; display:block; margin:auto";>
+	  </td> 
+	</tr>
+	<tr id="footer">
+	  <td><p>© 20XX Company. All Rights Reserved.</p> <hr style="width:100%; display:block; margin:auto";> 
+	  </td>
+	</tr>
+  </table>
+ </body>
+ </html>
